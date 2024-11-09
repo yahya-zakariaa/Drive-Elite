@@ -83,7 +83,7 @@ export default function Home() {
 
     <main className="mt-[80px] md:mt-[120px] ">
       <section className="main-section-layout flex flex-col lg:flex-row over h-fit md:min-h-[82.9vh] relative">
-      <div className=".suggestion-cars lg:flex hidden gap-2 flex-col absolute w-[300px] top-3 left-0">
+      <div className="suggestion-cars lg:flex hidden gap-2 flex-col absolute w-[300px] top-3 left-0">
           <div className="flex justify-between mb-1 suggestions-title opacity-0  ">
 
           <h3 className="text-white">Suggestions</h3>
