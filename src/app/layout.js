@@ -1,7 +1,5 @@
 import "./globals.css";
-import Link from "next/link";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import ToggleDarkMode from "@/components/ToggleDarkMood";
 import Navbar from './../components/navbar/Navbar';
 export const metadata = {
   title: "Create Next App",
@@ -12,10 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en " className="dark">
     <head>
-    
     </head>
       <body
-        className={"  p-0 m-0 dark:bg-[#030303] bg-[#fff]"}
+        className={"  p-0 m-0 dark:bg-[#030303] bg-[#fff] overflow-hidden"}
       >
       <Navbar/>
 
