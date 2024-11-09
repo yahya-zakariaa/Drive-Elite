@@ -122,7 +122,7 @@ export default function Home() {
         </div>
 
         <div className="boxs-container gap-2 flex md:flex-col flex-row lg:static   md:relative">
-        <div className=" lg:absolute static  car-details-box lg:right-0 opacity-0  md:right-0  md:top-[0%]  w-[200px]  md:w-[280px] lg:top-[2%] bottom-[-120%] h-[197px] mt-[25px] md:h-[200px] bg-[#dfdedea7] rounded-lg   dark:bg-[#111111b9] border-[0.3px] border-[#8b8b8b3b] backdrop-blur-xl z-[6] px-2 md:px-4 py-2 text-[#1e1e1e] dark:text-white flex justify-between flex-wrap gap-1 md:gap-2 items-center ">
+        <div className=" lg:absolute static  car-details-box lg:right-0 opacity-0  md:right-0  md:top-[0%] w-[50%]  min-w-[200px]  md:w-[280px] lg:top-[2%] bottom-[-120%] h-[197px] mt-[25px] md:h-[200px] bg-[#dfdedea7] rounded-lg   dark:bg-[#111111b9] border-[0.3px] border-[#8b8b8b3b] backdrop-blur-xl z-[6] px-2 md:px-4 py-2 text-[#1e1e1e] dark:text-white flex justify-between flex-wrap gap-1 md:gap-2 items-center ">
           <div className="item w-[48%] md:w-[48%] flex flex-col items-center">
           <i className="fa-solid fa-car-rear md:text-[22px] text-[18px]"></i>
           <span className="md:font-bold font-medium text-[14px] md:text-[18px] mt-1">235km</span>
@@ -144,7 +144,7 @@ export default function Home() {
           <span className="md:text-[12px] text-[10px] text-[#2a2a2a] dark:text-[#d1d1d1]">Gross Weight</span>
           </div>
         </div>
-        <div className="suggestion-cars lg:hidden flex gap-2 flex-col">
+        <div className="suggestion-cars lg:hidden flex gap-2 flex-col w-[50%] min-w-fit">
           <div className="flex justify-between suggestions-title opacity-0 ">
 
           <h3 className="text-white md:text-[16px] text-[12px]">Suggestions</h3>

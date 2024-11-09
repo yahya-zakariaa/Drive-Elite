@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <head>
     </head>
       <body
-        className={"  p-0 m-0 dark:bg-[#030303] bg-[#fff] overflow-hidden"}
+        className={"  p-0 m-0 dark:bg-[#020202] bg-[#fff] overflow-hidden"}
       >
       <Navbar/>
 
