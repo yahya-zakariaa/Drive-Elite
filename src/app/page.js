@@ -49,7 +49,7 @@ export default function Home() {
             gsap.to(" .suggestion-cars .suggestions-title",{
               opacity:1,
              
-              duration:1
+              duration:2
             }
           )
           gsap.fromTo(
