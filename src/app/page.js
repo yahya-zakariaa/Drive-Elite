@@ -255,8 +255,8 @@ export default function Home() {
                 <Image src={services1} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Airport Transfer</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#fff] text-[#202020] font-bold md:font-medium text-[16px] md:text-[20px] mb-1 text-nowrap">Airport Transfer</h3>
+                <p className="dark:text-[#dededede] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
@@ -265,8 +265,8 @@ export default function Home() {
                 <Image src={services2} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Business  Transfer</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#fff] text-[#202020] font-bold md:font-medium text-[14px] md:text-[20px] mb-1 text-nowrap">Business  Transfer</h3>
+                <p className="dark:text-[#dededede] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
@@ -275,8 +275,8 @@ export default function Home() {
                 <Image src={services3} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl  " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Wedding Car</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#fff] text-[#202020] font-bold md:font-medium text-[16px] md:text-[20px] mb-1 text-nowrap">Wedding Car</h3>
+                <p className="dark:text-[#dededede] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
@@ -285,8 +285,8 @@ export default function Home() {
                 <Image src={services4} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Car Trip</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#fff] text-[#202020] font-bold md:font-medium text-[16px] md:text-[20px] mb-1 text-nowrap">Car Trip</h3>
+                <p className="dark:text-[#dededede] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
