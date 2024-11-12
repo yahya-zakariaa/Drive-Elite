@@ -7,19 +7,22 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
+  
   return (
     <html lang="en " className="dark">
-    <head>
-    </head>
+      <head>
+      </head>
       <body
-        className={"  p-0 m-0 dark:bg-[#020202] bg-[#fff] overflow-hidden"}
+        className={"  p-0 m-0 dark:bg-[#020202] bg-[#fff] overflow-x-hidden"}
       >
-      <Navbar/>
 
-      <div className="container">
+        <Navbar />
 
-        {children}
-      </div>
+        <div className="container">
+
+          {children}
+        </div>
 
       </body>
     </html>
