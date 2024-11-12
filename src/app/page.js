@@ -247,7 +247,7 @@ export default function Home() {
       <section className="services-section lg:h-[100vh] h-fit pb-20  mb-10 w-full   flex justify-between pt-40">
         <div className="services-section-layout  h-full  w-[100%]">
           <div className="services-section-title flex justify-center mb-20 transition-all duration-200">
-            <h2 className="text-[45px]  text-stroke dark:dark dark:text-stroke-light font-bold  transition-all duration-500 ">What We Offer ?</h2>
+            <h2 className="md:text-[45px] text-[38px] text-center text-stroke dark:dark dark:text-stroke-light font-bold  transition-all duration-500 ">What We Offer ?</h2>
           </div>
           <div className="services-boxs flex lg:flex-row flex-col flex-wrap gap-7 justify-center items-center">
             <div className="box opacity-0 transition-all duration-700 dark:bg-[#111111b9] p-2 gap-x-4 border-[#8b8b8b3b] shadow-xl backdrop-blur-xl bg-[#dfdedea7] lg:w-[45%] w-full h-[200px] rounded-lg border dark:border-[#2f2f2f] flex justify-between items-center">
@@ -255,8 +255,8 @@ export default function Home() {
                 <Image src={services1} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Airport Transfer</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] text-[17px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Airport Transfer</h3>
+                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
@@ -265,8 +265,8 @@ export default function Home() {
                 <Image src={services2} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Business  Transfer</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] text-[17px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Business  Transfer</h3>
+                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
@@ -275,8 +275,8 @@ export default function Home() {
                 <Image src={services3} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl  " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Wedding Car</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] text-[17px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Wedding Car</h3>
+                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
@@ -285,8 +285,8 @@ export default function Home() {
                 <Image src={services4} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Air Port transation</h3>
-                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] text-[17px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
+                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium text-[15px] md:text-[20px] mb-1 text-nowrap">Car Trip</h3>
+                <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] md:text-[17px] text-[15px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
