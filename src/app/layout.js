@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en " className="dark">
       <head>
+        <title>Drive Elite | Home Page</title>
       </head>
       <body
         className={"  p-0 m-0 dark:bg-[#020202] bg-[#fff] overflow-x-hidden"}

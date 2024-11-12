@@ -4,7 +4,7 @@ import mainSectionImage from "../../public/assets/images/front-car.png";
 import services1 from "../../public/assets/images/services-1.jpg";
 import services2 from "../../public/assets/images/services-2.jpg";
 import services3 from "../../public/assets/images/services-3.jpg";
-import loadingScreen from "../../public/assets/images/loading-screen.gif";
+import services4 from "../../public/assets/images/services-4.jpeg";
 import Link from "next/link";
 import gsap from "gsap";
 import { useEffect, useState } from "react";
@@ -87,6 +87,7 @@ export default function Home() {
           }
         }
       )
+
       gsap.to(".services-section-title h2", {
         color: "white",
         scrollTrigger: {
@@ -97,6 +98,7 @@ export default function Home() {
         },
 
       })
+
       gsap.matchMedia().add("(min-width: 1020px)", () => {
         gsap.fromTo(servicesBoxs, {
           x: -500,
@@ -250,37 +252,37 @@ export default function Home() {
           <div className="services-boxs flex lg:flex-row flex-col flex-wrap gap-7 justify-center items-center">
             <div className="box opacity-0 transition-all duration-700 dark:bg-[#111111b9] p-2 gap-x-4 border-[#8b8b8b3b] shadow-xl backdrop-blur-xl bg-[#dfdedea7] lg:w-[45%] w-full h-[200px] rounded-lg border dark:border-[#2f2f2f] flex justify-between items-center">
               <div className="box-image min-w-[150px] w-[40%] h-full  overflow-hidden ">
-                <Image src={services1} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl brightness-75" />
+                <Image src={services1} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Air Port transition</h3>
+                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Airport Transfer</h3>
                 <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] text-[17px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
             <div className="box opacity-0 transition-all  duration-700 dark:bg-[#111111b9] p-2 gap-x-4 border-[#8b8b8b3b] shadow-xl backdrop-blur-xl bg-[#dfdedea7] lg:w-[45%] w-full h-[200px] rounded-lg border dark:border-[#2f2f2f] flex justify-between items-center">
               <div className="box-image min-w-[150px] w-[40%] h-full  overflow-hidden ">
-                <Image src={services2} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl brightness-75" />
+                <Image src={services2} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Bussniss meeting</h3>
+                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Business  Transfer</h3>
                 <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] text-[17px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
             <div className="box opacity-0 transition-all duration-700 dark:bg-[#111111b9] p-2 gap-x-4 border-[#8b8b8b3b] shadow-xl backdrop-blur-xl bg-[#dfdedea7] lg:w-[45%] w-full h-[200px] rounded-lg border dark:border-[#2f2f2f] flex justify-between items-center">
               <div className="box-image min-w-[150px] w-[40%] h-full  overflow-hidden ">
-                <Image src={services3} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl brightness-75 " />
+                <Image src={services3} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl  " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
-                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Air Port transation</h3>
+                <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Wedding Car</h3>
                 <p className="dark:text-[#efefefef] text-[#202020] mb-[13px] text-[17px] line-clamp-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt corrupti in eius vel. Quidem provident magnam veritatis laboriosam nam.</p>
                 <button className="dark:bg-[#efefef] bg-black px-4 py-1 rounded-md w-fit border border-[#8b8b8b3b] text-[#fff] dark:text-[#1e1e1e] font-medium ">Get Start</button>
               </div>
             </div>
             <div className="box opacity-0 transition-all duration-700 dark:bg-[#111111b9] p-2 gap-x-4 border-[#8b8b8b3b] shadow-xl backdrop-blur-xl bg-[#dfdedea7] lg:w-[45%] w-full h-[200px] rounded-lg border dark:border-[#2f2f2f] flex justify-between items-center">
               <div className="box-image min-w-[150px] w-[40%] h-full  overflow-hidden ">
-                <Image src={services3} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl brightness-75" />
+                <Image src={services4} alt="services img" loading="lazy" className="object-cover w-full rounded-lg h-full shadow-xl " />
               </div>
               <div className="box-content flex-grow h-full flex flex-col">
                 <h3 className="dark:text-[#efefefef] text-[#202020] font-medium  text-[20px] mb-1">Air Port transation</h3>
