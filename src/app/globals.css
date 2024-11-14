@@ -53,10 +53,3 @@ body{
   @apply w-[80%] mx-auto ;
   
 }
-.head-line-gradient {
-  background: linear-gradient(to right, #fffdfc, #701b92); /* تدرج لوني */
-  -webkit-background-clip: text; /* استخدام القص الخلفي للنص */
-  color: transparent; /* جعل النص شفافًا لكي يظهر التدرج */
-}
-
-
