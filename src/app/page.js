@@ -93,18 +93,19 @@ export default function Home() {
         }
       )
 
-      gsap.to(".services-section-title h2", {
-        color: "white",
-        scrollTrigger: {
-          trigger: ".services-section-title h2",
-          start: "-=200 center",
-          end: "+=300",
-          scrub: true,
-        },
 
-      })
 
       gsap.matchMedia().add("(min-width: 1020px)", () => {
+        gsap.to(".services-section-title h2", {
+          color: "white",
+          scrollTrigger: {
+            trigger: ".services-section-title h2",
+            start: "-=200 center",
+            end: "+=300",
+            scrub: true,
+          },
+
+        })
         gsap.fromTo(servicesBoxs, {
           x: -500,
         }, {
@@ -149,6 +150,16 @@ export default function Home() {
         })
       });
       gsap.matchMedia().add("(max-width: 1020px)", () => {
+        gsap.to(".services-section-title h2", {
+          color: "white",
+          scrollTrigger: {
+            trigger: ".services-section-title h2",
+            start: "-=50 center",
+            end: "+=300",
+            scrub: true,
+          },
+
+        })
         gsap.fromTo(servicesBoxs, {
           x: -500,
         }, {
@@ -168,7 +179,7 @@ export default function Home() {
           color: "white",
           scrollTrigger: {
             trigger: ".why-us-section-title h2",
-            start: "-=150 center",
+            start: "-=50 center",
             end: "+=200",
             scrub: true,
           },
