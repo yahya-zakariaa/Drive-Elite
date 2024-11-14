@@ -23,7 +23,7 @@
   height:calc(100% + 4px);
   overflow: hidden;
   box-sizing: border-box;
-  animation: animloader 10s linear infinite;
+  animation: animloader 1.5s linear infinite;
 }
 
 @keyframes animloader {

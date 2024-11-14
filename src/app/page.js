@@ -5,21 +5,35 @@ import services1 from "../../public/assets/images/services-1.jpg";
 import services2 from "../../public/assets/images/services-2.jpg";
 import services3 from "../../public/assets/images/services-3.jpg";
 import services4 from "../../public/assets/images/services-4.jpeg";
-import whyChooseUsIcon1 from "../../public/assets/images/24-hours.png";
-import whyChooseUsIcon2 from "../../public/assets/images/drive-safe.png";
-import whyChooseUsIcon3 from "../../public/assets/images/calendar.png";
-import whyChooseUsIcon4 from "../../public/assets/images/high-speed.png";
 import Link from "next/link";
 import gsap from "gsap";
 import { useEffect, useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import SearchBarLayer from "@/components/SearchBarLayer/SearchBarLayer";
+import useSearchBarContext from "@/context/SearchBarContext/searchBarContext";
 
 
 export default function Home() {
   const [isLoadingScreen, setIsLoadingScreen] = useState(true)
+  const { searchBarIsShow } = useSearchBarContext()
 
   useEffect(() => {
-    setIsLoadingScreen(false)
+    if (window !== 'undefined' && isLoadingScreen == false) {
+      if (searchBarIsShow) {
+        gsap.from(".searchBar-layer-container", {
+          x: 200,
+          opacity: 0,
+          duration: 1,
+          ease: "power3.out",
+        })
+      }
+    }
+  }, [searchBarIsShow])
+  useEffect(() => {
+    setTimeout(() => {
+
+      setIsLoadingScreen(false)
+    }, 1000)
 
     if (typeof window !== 'undefined' && isLoadingScreen == false) {
       gsap.registerPlugin(ScrollTrigger);
@@ -214,7 +228,7 @@ export default function Home() {
   if (isLoadingScreen) {
 
     return (
-      <div className="loading-screen absolute top-0 left-0 right-0 w-full h-full  z-[999999] bg-[#3333] flex justify-center items-center text-white">
+      <div className="loading-screen absolute top-0 left-0 right-0 w-full h-full  z-[999999999] bg-[#3333] flex justify-center items-center text-white">
         <span className="loader">DriveElite</span>
       </div>
     )
@@ -222,6 +236,9 @@ export default function Home() {
   return (
 
     <main className="mt-[80px] md:mt-[120px] ">
+
+      {searchBarIsShow ? <SearchBarLayer /> : null}
+
       <section className="main-section flex flex-col lg:flex-row over h-fit md:min-h-[82.9vh] relative">
         <div className="suggestion-cars lg:flex hidden gap-2 flex-col absolute w-[300px] top-3 left-0">
           <div className="flex justify-between mb-1 suggestions-title opacity-0  ">
